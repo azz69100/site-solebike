@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoleBike – Abri Solaire pour Vélos Électriques</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2E8B57;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      color: #2E8B57;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://example.com/abri-velo-solaire.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .content h2 {
+      color: #2E8B57;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2E8B57;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SoleBike</h1>
+  <p>Abri Solaire pour Vélos Électriques</p>
+</header>
+
+<nav>
+  <a href="#about">À propos</a>
+  <a href="#advantages">Avantages</a>
+  <a href="#gallery">Galerie</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Rechargez votre vélo avec l'énergie solaire</h1>
+</section>
+
+<div class="content">
+  <section id="about">
+    <h2>À propos</h2>
+    <p>SoleBike propose des abris solaires innovants pour vélos électriques, offrant une solution écologique de stationnement et de recharge. Nos abris sont conçus pour s'intégrer harmonieusement dans l'environnement urbain tout en fournissant une énergie propre et renouvelable.</p>
+  </section>
+
+  <section id="advantages">
+    <h2>Avantages</h2>
+    <ul>
+      <li>Recharge autonome grâce aux panneaux solaires</li>
+      <li>Protection contre les intempéries</li>
+      <li>Design moderne et personnalisable</li>
+      <li>Installation facile et rapide</li>
+      <li>Éligible aux subventions écologiques</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="https://example.com/image1.jpg" alt="Abri Solaire 1">
+      <img src="https://example.com/image2.jpg" alt="Abri Solaire 2">
+      <img src="https://example.com/image3.jpg" alt="Abri Solaire 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Pour plus d'informations ou pour obtenir un devis, veuillez nous contacter à l'adresse suivante : <a href="mailto:contact@solebike.fr">contact@solebike.fr</a></p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 SoleBike. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
